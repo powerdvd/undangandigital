@@ -1,0 +1,46 @@
+.box{
+    width : 60%;
+    margin:auto;
+    margin-top: 400px;
+    position: relative;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+p{
+    margin : 0;
+    padding: 0;
+}
+
+.box-first{
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    background-color: pink;
+}
+
+.box-second{
+    border-radius: 0 0 10px 10px;
+    background-color: orangered;
+    padding: 20px;
+    color: white;
+}
+
+.img-walikota{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.quotes{
+    font-weight: bold;
+    font-size: 18px;
+    width: 45%;
+    
+}
+
+.visi{
+    margin-top: 20px;
+    color :orangered;
+    font-size: 13px;
+    font-weight: bold;
+}

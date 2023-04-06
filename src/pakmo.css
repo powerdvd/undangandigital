@@ -1,0 +1,258 @@
+body{
+    margin : 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.kotak1{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*flex-wrap: wrap;*/
+}
+
+.gbr_mojokerto img{
+    height: 350px;
+    width :100%;
+    /*z-index: -1000;*/
+}
+nav{
+    margin: auto;
+    width:75%;
+    height :70px;
+    background-color: darkblue;
+    display: flex;
+    padding : 10px 50px 10px 50px;
+    justify-content: space-between;
+    border-radius: 10px;
+    position: sticky;
+    top : 30px;
+    margin-top : -300px;
+    /*align-items: center;*/
+    z-index: 1000;
+}
+.gbr_pakmo_gercep img{
+    width:100px;
+    height:70px;
+}
+
+.btn{
+    width : 90px;
+    height : 45px;
+    font-weight: bold;
+    border: 2px solid orangered;
+    border-radius: 5px;
+}
+.daftar{
+    background-color: white;
+    color: orangered;
+}
+.masuk{
+    background-color: orangered;
+    color: white;
+}
+.nav_btn{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.kotak2{
+    position: relative;
+}
+.kotak2{
+    margin:auto;
+    width:60%;
+    
+}
+
+.kotak_pilih_layanan{
+    /*margin : auto;*/
+    border-radius: 10px;
+    background-color: #d7e3fc;
+    border : 3px solid grey;
+    padding : 10px 10px 40px 10px;
+    margin-top: 150px;
+    /*position: relative;*/
+    /*top : 20px;*/
+}
+
+.kotak_menu_pilihan{
+    margin:auto;
+    width:80%;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    margin-top:30px;
+}
+
+.kotak_menu_pilihan img{
+    /*margin: auto;*/
+    width : 50px;
+    height: 50px;
+}
+.kotak_menu_pilihan p{
+    margin:0;
+    /*text-align: center;*/
+}
+
+.kotak_menu_pilihan div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /*border :1px solid black;*/
+}
+
+.kotak_teks_keunggulan_layanan{
+    display:flex;
+    flex-direction: column;
+    height :200px;
+    justify-content: center;
+}
+.kotak_teks_keunggulan_layanan p{
+    font-weight: bold;
+    margin: 0;
+}
+
+.kotak_teks_pengajuan_dan_semua{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.kotak_teks_pengajuan_dan_semua div{
+    border-radius: 10px;
+    background-color: #d7e3fc;
+    border : 3px solid grey;
+    padding : 10px 10px 10px 10px;
+}
+
+.kotak_teks_pengajuan_dan_semua p{
+    font-size: 14px;
+}
+
+.kotak_teks_skala_kami{
+    display: flex;
+    height: 200px;
+    align-items: center;
+}
+.kotak_teks_skala_kami p{
+    font-weight: bold;
+    margin: 0;
+}
+
+.kotak_teks_skala_kami span{
+    color:orangered;
+}
+
+.kotak_data{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap :20px;
+}
+
+.kotak_data_para_pemohon{
+    border : 3px solid grey;
+    padding : 10px 10px 10px 10px; 
+    background-color: #d7e3fc;
+}
+
+.kotak_data_para_pemohon p{
+    color: grey;
+}
+.data_para_pemohon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.data_para_pemohon p{
+    font-weight: bold;
+    color : orangered;
+}
+.kotak_data_para_pemohon img{
+    height :50px;
+    width:50px;
+}
+
+.kotak_maju_melangkah{
+    padding : 80px 0 80px 0;
+    display: flex;
+    gap :20px;
+}
+
+.kotak_maju_melangkah img{
+    width : 750px;
+    border-radius: 20px;
+}
+
+.kotak_teks_maju_melangkah{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.kotak_teks_maju_melangkah p{
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+}
+
+.kotak3{
+    width: 60%;
+    margin:auto;
+    position: relative;
+    margin-top: 200px;
+}
+.img_walikota{
+    position :absolute;
+    /*position: relative;*/
+    /*top : 1820px;*/
+    /*right: 310px;*/
+    bottom: 0;
+    right: 10px;
+    
+}
+.img_walikota img{
+    height: 500px;
+}
+
+.kotak_teks_terwujud{
+    border: 1px solid grey ;
+    border-radius: 20px 20px 0 0;
+    background-color: lightyellow;
+    /*margin-top : -16px;*/
+    padding : 10px 10px 10px 30px;
+    border-bottom: 0 !important;
+
+}
+.teks_terwujud{
+    width : 35%;
+    font-weight: bold;
+    
+}
+
+.teks_visi{
+    margin : 0;
+    font-weight: bold;
+    color: orangered;
+}
+
+.kotak_teks_walkot{
+    border: 1px solid grey ;
+    border-radius: 0 0 20px 20px;
+    background-color: orangered;
+    /*margin-top : -16px;*/
+    padding : 10px 10px 10px 30px;
+    border-top: 0 !important;
+}
+
+.kotak_teks_walkot p{
+    margin : 0;
+    color: white;
+}
+
+.teks_nama_walkot{
+    font-weight: bold;
+}
+
+/*.img_walikota{
+    height: 600px;
+    
+}*/

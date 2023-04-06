@@ -1,0 +1,34 @@
+div{
+    border : 1px solid black;
+    margin : 0 10px 0 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1, p{
+    margin : 0;
+}
+.kotak-pertama{
+    display: flex;
+    margin : auto;
+    /*justify-content: center; untuk <button> <input> <label> <span> <img>*/
+    /*justify-content: center;*/
+    padding :10px 10px 10px 10px;
+    width : 70%;
+}
+.kotak-pertama img{
+    width:200px;
+}
+
+.ket{
+    text-align: center;
+}
+ 
+.sponsor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+} 
+ 
+ 
+ 
+ 

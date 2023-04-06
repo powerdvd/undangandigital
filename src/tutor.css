@@ -1,0 +1,94 @@
+div,img, p{
+  border : 0px solid black;
+}
+.App {
+  margin : 0 10px 0 10px;
+  
+ 
+  
+}
+.kotak_tutor{
+  display : flex;
+  justify-content: center;
+  padding : 0 250px 0 250px;
+  
+}
+.kotak_ctutor{
+  flex-direction: column;
+  padding: 0 10px 0 10px;
+  
+  
+}
+.kotak_ppp{
+  display : grid;
+  grid-template-columns: repeat(4,1fr);
+  padding : 0 300px 0 300px;
+}
+
+.kotak_pp{
+  justify-content: center;
+  text-align: center;
+  padding : 10px 10px 10px 10px;
+}
+
+.kotak_pp p{
+  margin-top : -5px;
+}
+.gbr_pp{
+  border-radius: 100%;
+  height: 100px;
+  width :100px;
+}
+
+@media only screen and (max-width: 1024px){
+  .kotak_tutor{
+    flex-direction: column;
+    padding : 0;
+  }
+  .kotak_ctutor{
+    flex-direction: row;
+  }
+  .kotak_tutor img{
+    width:100vh;
+    height: 90vh;
+  }
+  
+  .kotak_ppp{
+      grid-template-columns: repeat(1,1fr);
+      padding : 0;
+  }
+}
+/*.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
